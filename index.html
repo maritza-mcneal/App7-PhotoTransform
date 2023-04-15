@@ -109,12 +109,10 @@
          
         for(var i = 0; i < canvasData.length; i += 4) { //this processes the image the is inputted
             canvasData[i] = 0; //red output at zero
-            canvasData[i + 1] = 0; //green output at zer
+            canvasData[i + 1] = 0; //green output at zer0
          }
-
-
-
-          
+         context2.putImageData(imageData, 0, 0); //puts the image that is imput, on the blue canvas         
+        } // stops image onload      
           
         } // end of img.onload
         
