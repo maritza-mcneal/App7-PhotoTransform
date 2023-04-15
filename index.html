@@ -107,6 +107,12 @@
         var imageData = context.getImageData(0, 0, 600, 500); //dimensions of the canvas
         var canvasData = imageData.data; //where the image data will go from the canvas
          
+                for(var i = 0; i < canvasData.length; i += 4) { 
+                 canvasData[i] = 0;
+                 canvasData[i + 1] = 0; 
+                          }
+         
+
 
           
           
