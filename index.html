@@ -102,7 +102,12 @@
 
           /* PUT ANY CHANGES TO THE JAVASCRIPT HERE  */
           
-          
+        var canvas2 = document.getElementById('myCanvas2'); // finds canvas 2
+        var context2 = canvas2.getContext("2d"); //gets context to go to canvas 2 in 2d         
+        var imageData = context.getImageData(0, 0, 600, 500); //dimensions of the canvas
+        var canvasData = imageData.data; //where the image data will go from the canvas
+         
+
           
           
         } // end of img.onload
