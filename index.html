@@ -134,34 +134,34 @@
  </head>
 
  <body>
-  <div data-role="page"> // gives identifying name to page
-    <div data-role="header"> // gives identifying name to header
-    <h1>Primary Colors</h1></div> <!-- /header --> // name of header
-    <div data-role="content">	 //gives identifying name to content
-      <h2>Push button to take picture.</h2> //displayed intructions for button
+  <div data-role="page"> <!-- gives identifying name to page --> 
+    <div data-role="header">  <!-- name of header --> 
+    <h1>Primary Colors</h1></div> <!-- /header --> 
+    <div data-role="content">	 <!-- gives identifying name to content --> 
+      <h2>Push button to take picture.</h2> <!--displayed intructions for button-->
       <div>
-        Press orange button to create or choose image file: // displayed on button
+        Press orange button to create or choose image file: <!--displayed on button-->
         <input type="file" id="fileInput" STYLE="background-color: #FF6600;">
       </div>
       <div id="messageDisplayArea"></div>
       
-      <canvas id="myCanvas" width=600 height=500 style="border:1px solid #d3d3d3;"></canvas> //dimensions of canvas
+      <canvas id="myCanvas" width=600 height=500 style="border:1px solid #d3d3d3;"></canvas> <!--dimensions of canvas-->
       <script> /* This script initiates the cavas and puts the text on the canvas "myCanvas" */
-        var canvas = document.getElementById('myCanvas'); //name of canvas
-        var context = canvas.getContext("2d"); //canvas context in 2d
-        context.font = '20pt Calibri'; //font displayed in canvas
-        context.fillStyle = "black"; //color of font in canvas
-        context.fillText("Original image will go here", 10, 20);  //where and dimenesions of image that will be desplayed
+        var canvas = document.getElementById('myCanvas'); <!--name of canvas-->
+        var context = canvas.getContext("2d"); <!--canvas context in 2d-->
+        context.font = '20pt Calibri'; <!--font displayed in canvas-->
+        context.fillStyle = "black"; <!--color of font in canvas-->
+        context.fillText("Original image will go here", 10, 20);  <!--where and dimenesions of image that will be desplayed-->
       </script>
      
     
       <canvas id="myCanvas2" width=600 height=500 style="border:1px solid #d3d3d3;"></canvas> //dimesnsions of canvas
       <script> /* This script initiates the canvas and puts the text on the canvas "myCanvas2" */
-        var canvas2 = document.getElementById('myCanvas2'); //name of canvas
-        var context2 = canvas2.getContext("2d"); //canvas context in 2d
-        context2.font = '20pt Calibri'; //font displayed in canvas
-        context2.fillStyle = "black"; //color of font in canvas
-        context2.fillText("Blue image will go here", 10, 20); //where and dimensions of image that will be displayed 
+        var canvas2 = document.getElementById('myCanvas2'); <!--name of canvas-->
+        var context2 = canvas2.getContext("2d"); <!--canvas context in 2d-->
+        context2.font = '20pt Calibri'; <!--font displayed in canvas-->
+        context2.fillStyle = "black"; <!--color of font in canvas-->
+        context2.fillText("Blue image will go here", 10, 20); <!--where and dimensions of image that will be displayed--> 
       </script>
      
 
